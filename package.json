@@ -11,6 +11,8 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "express": "4.12.3",
+    "leanengine": "^1.0.0-beta"
   },
   "engines": {
     "node": "4.x"
