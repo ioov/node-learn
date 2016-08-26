@@ -1,9 +1,8 @@
-var express = require('express');
 var AV = require('leanengine');
+var http = require("http");
 
-var app = express();
-
-app.use(AV.express());
-app.listen(process.env.LEANCLOUD_APP_PORT, function(req, res){
-	console.log(111);
-});
+http.createServer(function(req, res){
+	res.writeHead("content-type", "text/plain");
+	res.write("cc");
+	res.end();
+}).listen(process.env.LEANCLOUD_APP_PORT);
