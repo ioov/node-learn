@@ -1,16 +1,13 @@
 {
   "name": "node-learn",
   "version": "1.0.0",
-  "description": "A sample Node.js app",
+  "description": "test",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [
     "node",
-    "LeanCloud",
-    "LeanEngine",
-    "express"
   ],
   "license": "MIT",
   "dependencies": {
