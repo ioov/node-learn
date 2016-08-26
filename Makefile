@@ -1,4 +1,4 @@
 push:
 	git add -A
-	git commit -m "cc"
+	git commit -m "up"
 	git push origin master
