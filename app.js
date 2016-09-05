@@ -10,5 +10,8 @@ app.use(AV.express());
 app.get('/', function(req, res) {
 	res.end("cc");
 });
+app.get('/index', function(req, res) {
+	res.end("index");
+});
 
 module.exports = app;

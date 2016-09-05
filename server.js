@@ -1,5 +1,4 @@
 var AV = require('leanengine');
-var http = require("http");
 var app = require("./app");
 
 var APP_ID = process.env.LC_APP_ID;
