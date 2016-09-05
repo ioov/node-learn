@@ -17,4 +17,4 @@ http.createServer(function(req, res) {
 	res.writeHead('content-type', 'text/plain');
 	res.write("test");
 	res.end();
-}).listen(PORT);
+}).listen(8888);
