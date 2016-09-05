@@ -10,6 +10,9 @@ AV.initialize(APP_ID, APP_KEY, MASTER_KEY);
 
 var PORT = parseInt(process.env.LC_APP_PORT || 3000);
 
+
+console.log(process.env, PORT);
+
 http.createServer(function(req, res) {
 	res.writeHead('content-type', 'text/plain');
 	res.write("test");
