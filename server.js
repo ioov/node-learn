@@ -1,6 +1,5 @@
 var AV = require('leanengine');
 var http = require("http");
-var app = require("./app");
 
 var APP_ID = process.env.LC_APP_ID;
 var APP_KEY = process.env.LC_APP_KEY;
@@ -10,7 +9,6 @@ AV.initialize(APP_ID, APP_KEY, MASTER_KEY);
 AV.Cloud.useMasterKey();
 
 var PORT = parseInt(process.env.LEANCLOUD_APP_PORT || 3000);
-
 
 console.log(process.env.LEANCLOUD_APP_PORT);
 
