@@ -11,10 +11,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "node": "v4.4.3",
-    "leanengine": "^0.1.4"
+    "node": "latest",
+    "leanengine": "latest"
   },
   "engines": {
-    "node": "4.x"
+    "node": "latest"
   }
 }
