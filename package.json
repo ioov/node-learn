@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "node": "4.x",
+    "node": "~5.1.0",
     "leanengine": "^0.1.4"
   },
   "engines": {
