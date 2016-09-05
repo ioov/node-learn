@@ -11,8 +11,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "node": "latest",
-    "leanengine": "latest"
+    "leanengine": "latest",
+    "express": "latest"
   },
   "engines": {
     "node": "latest"
