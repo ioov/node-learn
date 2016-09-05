@@ -1,4 +1,4 @@
-push:
+push :
 	git add -A
-	git commit -m "up"
+	git commit -m "${m}"
 	git push origin master
