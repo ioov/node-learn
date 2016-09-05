@@ -12,8 +12,9 @@ var PORT = parseInt(process.env.LEANCLOUD_APP_PORT || 3000);
 
 console.log(process.env.LEANCLOUD_APP_PORT);
 
-http.createServer(function(req, res) {
-	res.writeHead('content-type', 'text/plain');
-	res.write("test");
-	res.end();
-}).listen(PORT);
+// http.createServer(function(req, res) {
+// 	res.writeHead('content-type', 'text/plain');
+// 	res.write("test");
+// 	res.end();
+// }).listen(PORT);
+app.listen(PORT);
